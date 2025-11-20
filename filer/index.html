@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boligjakt? – Min bolig, mine valg</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Boligstatus', 'Andel i prosent'],
+        ['Eier bolig', 76],
+        ['Leier bolig', 24]
+      ]);
+
+      var options = {
+        title: 'Hold musen over for å se spesifikke tall:',
+        is3D: true,
+        backgroundColor: '#cecece'
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+      chart.draw(data, options);
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div id="overskrift">
+        <h1>- «Boligjakt? - Min bolig, mine valg»</h1>
+    </div>
+    <div>
+      <p class="kilder">Foto: Unsplash. </p>
+    </div>
+  </header>
+
+  <main>
+    
+    <section class="scrollContainer" id="introduction">
+      <div class="scrollText"><p>Et eget sted å bo er for mange starten på et selvstendig voksenliv.</p></div>
+      <div class="scrollText"><p>Men boligmarkedet kan føles trangt og uoversiktlig, spesielt for unge som skal inn på leiemarkedet for første gang.</p></div>
+      <div class="scrollText"><p>Husleier øker, konkurransen er høy, og det er lett å føle at man aldri strekker til i kampen om de samme leilighetene.</p></div>
+      <div class="scrollText"><p>Noen får hjelp hjemmefra – andre må klare seg helt selv, med vanlig lønn og vanlig hverdag.</p></div>
+      <div class="scrollText"><p>Dette er historien om Aleksander, og jakten hans på et sted å kalle hjem.</p></div>
+    </section>
+
+    
+    <article>
+
+      <h2>På jakt etter et sted å bo</h2>
+
+      <p>Aleksander (27) jobber fulltid i en sportsbutikk i Oslo. I flere måneder har han gått på visning etter visning uten å lande en leiekontrakt. Hver gang håper han at denne leiligheten skal bli den som endelig er «hans» – men konkurransen er tøff.</p>
+
+      <p><strong>Hvordan er det å gå på så mange visninger uten å få napp?</strong></p>
+      <p>- Det er slitsomt, egentlig. Du blir litt tom etter hvert. Du bruker tid og energi på å dra rundt, håper litt hver gang, og så får du den samme meldingen: «Beklager, vi valgte en annen».</p>
+
+      <p><strong>Hvordan ser en typisk visning ut for deg?</strong></p>
+      <p>- Du står i kø med ti–tjue andre, alle prøver å være blide og høflige. Så går du inn i en liten leilighet, ser rundt i fem minutter og prøver å forestille deg livet ditt der. Samtidig vet du at mange av de andre kanskje tjener mer, er to som kan dele husleia, eller har foreldre som kan være kausjonister.</p>
+
+      <p><strong>Hva jobber du med, og hvordan påvirker det boligjakten?</strong></p>
+      <p>- Jeg jobber fast i sportsbutikk, har jevn inntekt og gode referanser. På papiret burde jeg være en trygg leietaker, men i praksis føles det som om jeg alltid taper mot noen som har litt mer å vise til.</p>
+
+      <p><strong>Har du noen gang vært nær ved å få en leilighet?</strong></p>
+      <p>- Ja, i januar var jeg ganske sikker. Det var en liten sokkelleilighet på Tøyen. Ikke perfekt, men varm og koselig, og med en liten bakgård. Utleier virket positiv og sa jeg virket pålitelig. Jeg dro derfra med en skikkelig god følelse.</p>
+      <p>- To dager senere fikk jeg SMS: «Valgte en annen. Lykke til videre.» Det er bare én setning, men den satt. Jeg sletta meldingen etterpå, orket ikke se på den.</p>
+
+      <p><strong>Hvordan påvirker denne usikkerheten deg i hverdagen?</strong></p>
+      <p>- Det verste er følelsen av at alt er midlertidig. Jeg kjøper ikke ordentlige møbler, for jeg vet ikke hvor jeg ender opp. Jeg utsetter planer, starter ikke på ting jeg egentlig har lyst til, fordi jeg ikke vet om jeg må flytte igjen. Det føles litt som om livet står på pause.</p>
+
+      <p><strong>Har du vurdert å flytte ut av byen?</strong></p>
+      <p>- Ja, flere ganger. Flytte hjem igjen, spare penger, få litt pusterom. Men det føles også som å gi opp. Jobben min, vennene mine, alt er her. Jeg har lyst til å klare det her i Oslo, selv om det er vanskelig.</p>
+
+      <p><strong>Hva gir deg motivasjon til å fortsette å lete?</strong></p>
+      <p>- Små ting. En utleier som faktisk tar seg tid til å prate, en leilighet som føles litt riktig, eller bare tanken på å endelig ha et sted som er mitt. Et sted jeg kan låse døra og tenke: «Her bor jeg. Ikke bare nå, men en stund fremover.»</p>
+
+      <p><strong>Hvordan ser drømmeleiligheten din ut – realistisk sett?</strong></p>
+      <p>- Jeg drømmer ikke om noe stort. Jeg vil bare ha et lite sted som er varmt, med grei husleie, litt dagslys og plass til pulten og gitaren min. Et sted hvor jeg kan lande. Ikke luksus – bare trygghet.</p>
+
+    </article>
+
+    
+    <section class="scrollContainer">
+      <div class="scrollText"><p>Aleksander er langt fra alene om å kjenne på stresset i leiemarkedet.</p></div>
+      <div class="scrollText"><p>Over en million mennesker i Norge leier bolig, og andelen unge leietakere er høy i de største byene.</p></div>
+      <div class="scrollText"><p>For mange blir det en balansegang mellom lønn, husleie og drømmen om et mer stabilt hjem.</p></div>
+      <div class="scrollText"><p>Samtidig handler det ikke bare om kroner og øre – det handler også om tilhørighet, trygghet og muligheten til å planlegge fremtiden.</p></div>
+    </section>
+
+    <article>
+      <figure>
+        <h2>Boligstatus i Norge: Hvor mange eier og hvor mange leier?</h2>
+        <div id="circles">
+          <div class="circle-container">
+            <div class="circle" id="circle1">76%</div>
+            <p>Eier bolig</p>
+          </div>
+        
+          <div class="circle-container">
+            <div class="circle" id="circle2">24%</div>
+            <p>Leier bolig</p>
+          </div>
+        </div>
+        <div id="piechart" style="width: 900px; height: 500px;"></div>
+        <p>Tallene er avrundet og basert på nyere statistikk om eier- og leieandel i Norge.</p>
+        <figcaption>Statistikk: basert på tall fra Statistisk sentralbyrå (SSB).</figcaption>
+      </figure>
+    </article>
+
+    
+    <section class="scrollContainer">
+      <div class="scrollText"><p>Bak hver prosentandel i statistikken finnes det en person som Aleksander.</p></div>
+      <div class="scrollText"><p>For noen er leie en fleksibel løsning. For andre føles det som en evig kamp for å finne et sted som både er trygt og til å betale.</p></div>
+      <div class="scrollText"><p>Aleksander fortsetter å dra på visninger, sende søknader og håpe at neste melding ikke starter med «beklager».</p></div>
+      <div class="scrollText"><p>- Jeg vil bare ha et lite sted som er mitt. Når jeg først finner det, vet jeg at alt strevet var verdt det, sier han.</p></div>
+      <div class="scrollText"><p>For mange unge i Norge handler boligjakt om mer enn marked og priser – det handler om å finne et hjem.</p></div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+        <p>Laget av Adam Mangoor, Isa Isajev og Mohammed Baker</p>
+        <br>
+        <p>Høgskolen i Østfold</p>
+    </div>
+  </footer>
+</body>
+</html>

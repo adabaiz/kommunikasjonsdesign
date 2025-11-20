@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500&display=swap');
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+font-size: 17px;
+  padding: 0;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top left;
+}
+
+header div {
+    display: block;
+
+}
+
+
+
+#overskrift{
+background: #000000b3;
+color: white;
+padding: 2%;
+
+}
+
+article{
+display: block;
+margin: auto;
+width: 60%;
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+
+article p{
+font-size: large;
+}
+
+footer {
+background-color: darkslategrey;
+color: white;
+width: 100%;
+}
+
+footer div {
+padding: 2rem 2rem;
+margin: 0 auto;
+margin: auto;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+}
+
+
+
+#circles {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0;
+    }
+
+    .circle-container {
+      text-align: center;
+    }
+
+    #circle1 {
+      background-color: #1f5dcf; /* Blue */
+    }
+
+    #circle2 {
+      background-color: #da2f1c; /* Red */
+    }
+
+    #circle3{
+      background-color: #f1b50f; /* Yellow */
+    }
+
+    #circle4 {
+      background-color: #248511; /* Green */
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .text {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    
+    figure{
+      margin-bottom: 4rem;
+      margin: auto;
+      background-color: #cecece;
+      width: 1000px;
+      padding: 2rem;
+      border-radius:5%;
+      border-style: solid;
+    }
+
+    #piechart{
+      border-style: solid;
+      border-radius: .5%;
+      margin: auto;
+    }
+
+    .kilder {
+      display: block;
+      position: absolute;
+      color: white;
+      padding-left: 5vh;
+      bottom: 0.5%;
+      
+    }
+
+  
+  .scrollContainer {
+    background-image: url("https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    width: 100vw;
+    min-height: 60vh;
+    overflow: hidden;
+}
+
+.scrollText {
+  margin: 100vh auto;
+  max-width: 50rem;
+  padding: 1rem;
+  background: #fff;
+  color: #000;
+  font-size: 22px;
+  text-align: center;
+}
+
+figcaption{
+  margin-top:5px;
+  color: grey;
+  font-size: smaller;
+  font-style: italic;
+}
