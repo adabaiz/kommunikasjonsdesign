@@ -1,0 +1,156 @@
+body {
+      
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      font-size: 17px;
+    }
+
+    header {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://images.unsplash.com/photo-1533580909002-a2f298d005eb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: top left;
+    }
+
+    header div {
+        display: block;
+
+    }
+
+
+
+#overskrift{
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 2%;
+    
+}
+
+.scrollContainer {
+    width: 100vw;
+    min-height: 60vh;
+    overflow: hidden;
+    transition: background-image 2s;
+}
+
+.scrollText {
+    margin: 100vh auto;
+    max-width: 50rem;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+}
+
+.scrollText p {
+  font-size: larger;
+}
+
+#introduction {
+    /* bilde hentet fra: https://www.unisportstore.no/blog/50761-vm-2022-den-komplette-guiden-til-fifa-world-cup-2022-pa-unisport/ */
+    background-image: url("https://holbornassets.com/wp-content/uploads/2024/12/inflation-1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.map{
+    position: relative;
+      max-width: 800px;
+      margin: 50px auto;
+}
+
+    .timeline {
+      position: relative;
+      max-width: 800px;
+      margin: 50px auto;
+    }
+
+    .timeline-item {
+      position: relative;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background-color: #d8d8d8;
+    }
+
+    .timeline-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .timeline-item::before {
+      display: none;
+    }
+
+    .timeline-date {
+      font-size: 1rem;
+      color: #3498db;
+    }
+
+    .timeline-content {
+      margin-top: 10px;
+      color: #555555;
+    }
+
+    .timeline-item h3 {
+      color: #333;
+    }
+
+    #changingBg {
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      padding-bottom: 50vh;
+  }
+
+
+article{
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+footer {
+  background-color: darkslategrey;
+  color: white;
+  width: 100%;
+}
+
+footer div {
+  padding: 2rem 2rem;
+  margin: 0 auto;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+ 
+.kilder {
+  display: block;
+  position: absolute;
+  color: white;
+  padding-left: 5vh;
+  bottom: 0.5%;
+  
+}
+
+figcaption{
+  margin-top:5px;
+  color: grey;
+  font-size: smaller;
+  font-style: italic;
+}
