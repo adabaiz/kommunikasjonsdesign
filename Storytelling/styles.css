@@ -74,19 +74,19 @@ justify-content: space-between;
     }
 
     #circle1 {
-      background-color: #1f5dcf; /* Blue */
+      background-color: #1f5dcf; 
     }
 
     #circle2 {
-      background-color: #da2f1c; /* Red */
+      background-color: #da2f1c; 
     }
 
     #circle3{
-      background-color: #f1b50f; /* Yellow */
+      background-color: #f1b50f; 
     }
 
     #circle4 {
-      background-color: #248511; /* Green */
+      background-color: #248511;
     }
 
     .circle {

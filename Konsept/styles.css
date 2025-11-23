@@ -33,10 +33,10 @@ body {
 }
 
 .scrollContainer {
-    width: 100vw;
-    min-height: 60vh;
-    overflow: hidden;
-    transition: background-image 2s;
+width: 100vw;
+min-height: 60vh;
+overflow: hidden;
+transition: background-image 2s;
 }
 
 .scrollText {
@@ -53,44 +53,44 @@ body {
 }
 
 #introduction {
-    /* bilde hentet fra: https://www.unisportstore.no/blog/50761-vm-2022-den-komplette-guiden-til-fifa-world-cup-2022-pa-unisport/ */
+    
     background-image: url("https://holbornassets.com/wp-content/uploads/2024/12/inflation-1.jpg");
     background-attachment: fixed;
-    background-size: cover;
+     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .map{
     position: relative;
-      max-width: 800px;
+        max-width: 800px;
       margin: 50px auto;
 }
 
-    .timeline {
+       .timeline {
       position: relative;
       max-width: 800px;
       margin: 50px auto;
     }
 
-    .timeline-item {
+.timeline-item {
       position: relative;
       padding: 20px;
-      background-color: #fff;
+        background-color: #fff;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       background-color: #d8d8d8;
     }
 
-    .timeline-item:hover {
+     .timeline-item:hover {
       transform: scale(1.05);
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     }
 
-    .timeline-item::before {
-      display: none;
-    }
+           .timeline-item::before {
+           display: none;
+       }
 
     .timeline-date {
       font-size: 1rem;
@@ -99,7 +99,7 @@ body {
 
     .timeline-content {
       margin-top: 10px;
-      color: #555555;
+        color: #555555;
     }
 
     .timeline-item h3 {
@@ -107,11 +107,11 @@ body {
     }
 
     #changingBg {
-      background-size: cover;
+       background-size: cover;
       background-position: center center;
-      background-repeat: no-repeat;
+       background-repeat: no-repeat;
       background-attachment: fixed;
-      padding-bottom: 50vh;
+       padding-bottom: 50vh;
   }
 
 
@@ -126,8 +126,8 @@ article{
 
 footer {
   background-color: darkslategrey;
-  color: white;
-  width: 100%;
+      color: white;
+      width: 100%;
 }
 
 footer div {
@@ -139,7 +139,7 @@ footer div {
   justify-content: space-between;
 }
  
-.kilder {
+   .kilder {
   display: block;
   position: absolute;
   color: white;
