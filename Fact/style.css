@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1472220625704-91e1462799b2?q=80&w=2070&auto=format&fit=crop");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+    background: rgba(0,0,0,0.4);
+    padding: 1.5rem;
+}
+
+#changingBg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background-image 2.8s ease-in-out; /* smooth fade */
+}
+
+.scrollContainer {
+    width: 100%;
+    position: relative;
+}
+
+.scrollText {
+    min-height: 170vh; /* longer sections for longer image display */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12%;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent box so text is readable */
+    margin: 0 auto;
+}
+
+.scrollText p {
+    margin: 0;
+}
+
+a {
+    color: #87c7ff;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: darkslategrey;
+    padding: 2rem;
+    text-align: center;
+}
